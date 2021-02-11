@@ -1,0 +1,17 @@
+.services{
+        text-align: center;
+        margin-left: 300px;
+        margin-right: 300px;
+        margin-bottom: 20px;
+        padding: 3px;
+        background-color: #0C090A;
+        border-radius: 50px;
+      }
+.apphr{
+	padding: 3px;
+    background-color: #0C090A;
+    border-radius: 50px;
+}
+li a:hover{
+	color: blue;
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="appstyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+
+    <style type="text/css">
+      .content{
+        
+        background-color: #BCC6CC;
+      }
+      .center-img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      .back{
+        background-color: grey;
+      }
+      *{
+        font-family: Montserrat;
+        font-size: 18px;
+
+      }
+      .footer{
+        
+        background-color: #BCC6CC;
+        padding: 5px;
+        padding-top: 10px;
+      }
+      li{
+
+        display: inline;
+        margin: 50px;
+      }
+      li a{
+        text-decoration: none;
+        color: black;
+      }
+      ul{
+        margin-top: 15px;
+        list-style: none;
+      }
+      .nav-link:hover{
+        color: blue;
+      }
+    </style>
+    <title>Orion Technologies</title>
+  </head>
+
+  <body>
+    <!-- adding navbar-->
+    <div class="row" style="background-color:#0C090A;">
+      <div class="col-sm-10">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-#0C090A" style="width: 100%; height: 50px;margin-bottom: 15px; margin-top: 5px;">
+  <div class="container-fluid" style="width: 100%;">
+    
+    <div class="collapse navbar-collapse " id="navbarNav" style="width: 100%;">
+     
+      <ul class="navbar-nav">cl
+
+        <li class="nav-item">
+          <a style="color: white; " class="nav-link " aria-current="page" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: white; " class="nav-link" href="#">Our Work</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: white; " class="nav-link" href="#">Process</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: white; " class="nav-link" href="#">Testimonials</a>
+        </li>
+        <li class="nav-item">
+          <a style="color: white; " class="nav-link" href="#">Contact Us</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+</div>
+
+<div class="col-sm-2">
+  <img class="img-responsive img-fluid" src="samplephoto/Orionlogo.jpg" style="margin-top: 5px; float: right;" height="90px" width="90px">
+</div>
+</div>
+
+
+<!-- Brief intro-->
+<section  class="content">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <h3 style="margin-top: 20px;">App Development Company</h3>
+      <hr class="apphr">
+      <p>We design and develop mobile applications for both iOS and Android platforms.Utilise our expertise in ML and AI technologies to
+      to enhance your business.</p>
+    </div>
+    <div class="col-sm-6 img-responsive img-fluid">
+     <img style="margin-top: 20px;" class="center-img" src="data:image/jpeg;base64,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">
+    </div>
+  </div>
+  
+</section>
+<!-- Description -->
+<section class="content">
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-6">
+      <p style="margin-top: 20px;">We offer you a full fledged assistance in app development according to the customer requirements
+      .A prolonged experience in developing diverse,complex apps accross various business sectors .Our team of experts have been a 
+      global solution provider for diverse engineering industries .<br><br>
+    Ranging from startups to established business giants ,we strive to increse their business productivity through our well equpped ,professionalised work culture.Definitely our mobile app development services will take your business to the next level.</p>
+    </div>
+    <!-- Adding  a form -->
+    <div style="margin-top: 20px;"  class="col-sm-6 back">
+      <h3 style="text-align: center;">FREE CONSULTATION</h3>
+      <h4 style="text-align: center; color: white;">Get your free quote</h4>
+      <form class="row g-3">
+  <div class="col-md-12">
+    <label for="inputEmail4" class="form-label">Email</label>
+    <input type="email" class="form-control" id="inputEmail4" placeholder="Enter your email address">
+  </div>
+  <div class="col-md-12">
+    <label for="inputPassword4" class="form-label">Full Name</label>
+    <input type="password" class="form-control" id="inputPassword4" placeholder="Enter your  name">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Phone</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Phone Number">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress2" class="form-label">Description</label>
+    <input type="text" class="form-control" id="inputAddress2" placeholder="Please provide a brief description">
+  </div>
+  
+  <div class="col-12 ">
+    <div class="col-6 mx-auto" style="margin-bottom: 10px;">
+    <button  type="submit" class="btn btn-dark">Get your free consultation</button>
+    </div>
+  </div>
+</form>
+    </div>
+  </div>
+</section>
+<!-- our services -->
+<section  class="content">
+  <h3 style="text-align: center;padding: 0px;padding-top: 50px;">Our Services</h3>
+  <hr class="services">
+  <hr>
+  <div style="background-color: #BCC6CC ;" class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div style="background-color: grey;" class="card img-responsive img-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+      <img src="https://t4.ftcdn.net/jpg/03/94/73/37/240_F_394733758_RBNh6bRFLlF0nKluO7kFzRaPxhnnjuV1.jpg" class="card-img-top img-responsive img-fluid" alt="...">
+    </div>
+    <div class="col-sm-8">
+        <h5 style="margin-top: 70px;" class="card-title">Android App development</h5>
+        </div>
+        </div>
+        <div class="card-body">
+        <p class="card-text">A well equipped team of full stack developers using the latest technology to meet the industrial standards.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div style="background-color: grey;" class="card img-responsive img-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+      <img src="https://www.flaticon.com/svg/vstatic/svg/1179/1179286.svg?token=exp=1613037399~hmac=92453d11ef4f6c6c80b3d672c81a3c45" class="card-img-top img-responsive img-fluid" alt="...">
+       </div>
+    <div class="col-sm-8">
+        <h5 style="margin-top: 80px;" class="card-title">Web App Development</h5>
+        </div>
+        </div>
+        <div class="card-body">
+        <p class="card-text">An experienced web development team focussed to enhance the user experience and create engaging webapps.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div style="background-color: grey;" class="card img-responsive img-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+      <img src="https://www.flaticon.com/svg/vstatic/svg/2920/2920339.svg?token=exp=1613037506~hmac=b3541351cf431466082a52b5a2147a40" class="card-img-top img-responsive img-fluid" alt="...">
+      </div>
+    <div class="col-sm-8">
+        <h5 style="margin-top: 80px;" class="card-title">Mobile App Design</h5>
+        </div>
+        </div>
+        <div class="card-body">
+        <p class="card-text">UI/UX designers strictly adhere to the industrial standards to create a visually appealing user interfaces and impart quality user experience without hampering the functionality.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div style="background-color: grey;" class="card img-responsive img-fluid">
+      <div class="row">
+        <div class="col-sm-4">
+      <img src="https://www.flaticon.com/svg/vstatic/svg/4151/4151990.svg?token=exp=1613038339~hmac=3bc8e5cf478086f2ffc09c4a24964d68" class="card-img-top img-responsive img-fluid" alt="...">
+       </div>
+    <div class="col-sm-8">
+        <h5 style="margin-top: 80px;" class="card-title">Cross-platform Mobile Apps</h5>
+        </div>
+        </div>
+        <div class="card-body">
+        <p class="card-text">Using the latest technology custom mobile apps supported accross multiple platforms are developed.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- footer-->
+<footer>
+  <div class="footer">
+    <div class="row">
+      <div class="col-sm-10">
+    <nav>
+      <ul>
+        <li><a href="#">Terms & Conditions</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">FAQs</a></li>
+        <li><a href="#">Sitemap</a></li>
+      </ul>
+    </nav>
+    </div>
+    <div class="col-sm-2">
+      <div class="row" style="margin-top: 10px;">
+        <div class="col-sm-4">
+          <img class="img-fluid img-responsive" src="https://www.flaticon.com/svg/vstatic/svg/145/145802.svg?token=exp=1613041748~hmac=ca24708c882f234b4231c7ebacf23714" height="40px" width="40px">
+        </div>
+        <div class="col-sm-4">
+          <img class="img-fluid img-responsive" src="https://www.flaticon.com/svg/vstatic/svg/733/733579.svg?token=exp=1613041882~hmac=35baf9ab98b2239ac12239760f526353" height="40px" width="40px">
+        </div>
+        <div class="col-sm-4">
+          <img class="img-fluid img-responsive" src="https://www.flaticon.com/svg/vstatic/svg/2111/2111463.svg?token=exp=1613041950~hmac=bbbf8795c12d7871682ed487fc8e8e84" height="40px" width="40px">
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <p style="color: black; text-align: center;">Copyright &copy; Orion Technologies.All Rights Reserved</p>
+    </div>
+</footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
